@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tasty Bites - Gallery</title>
+    <style>
+        body {
+            font-family: 'Verdana', sans-serif;
+            background-color: #ffe0b2;
+            color: #4e342e;
+        }
+
+        header {
+            background-color: #ffab40;
+            color: white;
+            padding: 15px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+      
+        header img {
+    width: 80px;
+    height: auto;
+    border-radius: 50%;  
+    object-fit: cover;   
+        }
+
+        nav {
+            display: flex;
+        }
+
+        nav a {
+            margin-left: 20px;
+            color: white;
+            font-size: 18px;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            color: #ffe0b2;
+        }
+
+        .gallery-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px;
+        }
+
+        .gallery-item {
+            width: 30%;
+            margin-bottom: 20px;
+        }
+
+        .gallery-item img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="assets/logo.png" alt="Tasty Bites Logo">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="menu.html">Menu</a>
+            <a href="about.html">About</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <div class="gallery-container">
+        <div class="gallery-item">
+            <img src="images/image1.png" alt="Dish 1">
+        </div>
+        <div class="gallery-item">
+            <img src="images/image2.png" alt="Dish 2">
+        </div>
+        <div class="gallery-item">
+            <img src="images/image3.png" alt="Dish 3">
+        </div>
+        <div class="gallery-item">
+            <img src="images/image4.png" alt="Dish 4">
+        </div>
+        <div class="gallery-item">
+            <img src="images/image5.png" alt="Dish 5">
+        </div>
+        <div class="gallery-item">
+            <img src="images/image6.png" alt="Dish 6">
+        </div>
+    </div>
+</body>
+</html>
